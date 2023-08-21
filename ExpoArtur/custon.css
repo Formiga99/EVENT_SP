@@ -1,0 +1,66 @@
+.footer__columns  {
+    font-size: 0;
+}
+.footer__partnersImg  {
+    width: 100%;
+}
+.footer .footer__left,
+.footer .footer__center,
+.footer .footer__right  {
+    vertical-align: top;
+}
+.footer .footer__left,
+.footer .footer__right  {
+    width: 30%;
+}
+.footer .footer__center  {
+    width: 40%;
+}
+@media (max-width: 820px)  {
+    .footer .footer__left,
+    .footer .footer__center,
+    .footer .footer__right  {
+        width: 100%;
+    }
+    .footer .footer__center  {
+        margin-bottom: 40px;
+    }
+}
+.nav,
+.title .title__main  {
+    background-color: #181818;
+}
+.nav .nav__list .nav__item .nav__anchor:hover  {
+    background-color: #423c3c;
+}
+.sector .sector__actions .sector__anchor.sector__anchor--highlight,
+.sector_modal .sector_modal__button  {
+    background-color: #181818;
+    border-color: #181818;
+}
+.sector_modal .sector_modal__close  {
+    background-color: #181818;
+}
+.sector_modal .sector_modal__title,
+.info .info__title,
+.info .info__subtitle  {
+    color: #181818;
+}
+.info .info__title .info__icon svg, .info .info__subtitle .info__icon svg  {
+    fill: #181818;
+}
+.footer .footer__social .footer__social_item .footer__social_anchor svg  {
+    fill: #fff;
+}
+::-webkit-scrollbar {
+    width:5px
+}
+::-webkit-scrollbar-track {
+    background:#181818
+}
+::-webkit-scrollbar-thumb {
+    background:#fff
+}
+::-webkit-scrollbar-thumb:hover {
+    background:#fff
+}
